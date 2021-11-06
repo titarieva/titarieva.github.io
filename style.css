@@ -1,0 +1,77 @@
+html {
+    font-family: Helvetica, serif;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.home div {
+    padding: 10px;
+}
+
+.portfolio-header {
+    display: flex;
+    justify-content: center;
+}
+
+.home div img {
+    border-radius: 3px;
+    padding: 5px;
+    width: 250px;
+    height: auto;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: space-around;
+}
+
+.portfolio div img {
+    border: 2px solid #ddd;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 20px;
+    width: 450px;
+    height: auto;
+}
+
+.bottomnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.bottomnav p {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
