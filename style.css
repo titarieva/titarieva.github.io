@@ -25,6 +25,10 @@ html {
   background-color: #04aa6d;
   color: white;
 }
+.topnav a {
+  position: sticky;
+  top: 0;
+}
 
 .home {
   display: flex;
