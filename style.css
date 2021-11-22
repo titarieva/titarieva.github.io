@@ -46,7 +46,7 @@ html {
 .home div img {
   border-radius: 3px;
   padding: 5px;
-  width: 250px;
+  width: px;
   height: auto;
 }
 
@@ -76,4 +76,8 @@ html {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+}
+.bottomnav a {
+  float: center;
+  color: rgb(255, 255, 255);
 }
