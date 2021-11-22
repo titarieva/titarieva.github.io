@@ -7,7 +7,7 @@ html {
   overflow: hidden;
   position: sticky;
   top: 0;
-  z-index: 500;
+  z-index: 1000;
 }
 
 .topnav a {
