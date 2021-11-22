@@ -11,6 +11,10 @@ html {
   position: sticky;
   top: 0;
 }
+.wrapper {
+  width: 600px;
+  margin: 0 auto;
+}
 
 .topnav a {
   float: left;
