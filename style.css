@@ -48,7 +48,7 @@ html {
   height: auto;
 }
 
-.porthefolio {
+.portfolio {
   display: flex;
   justify-content: space-around;
 }
