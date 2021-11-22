@@ -15,9 +15,6 @@ html {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  top: 0;
-  z-index: 1;
-  width: 100%;
 }
 
 .topnav a:hover {
