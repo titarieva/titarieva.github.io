@@ -1,9 +1,6 @@
 html {
   font-family: Helvetica, serif;
 }
- {
-  box-sizing: border-box;
-}
 
 .topnav {
   background-color: #333;
@@ -12,7 +9,7 @@ html {
   top: 0;
 }
 .wrapper {
-  width: 600px;
+  width: 1200px;
   margin: 0 auto;
 }
 
