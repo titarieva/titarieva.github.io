@@ -8,16 +8,12 @@ html {
   position: sticky;
   top: 0;
 }
-.wrapper {
-  width: 5000px;
-  margin: 0 auto;
-}
 
 .topnav a {
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 16px 18px;
   text-decoration: none;
   font-size: 17px;
 }
