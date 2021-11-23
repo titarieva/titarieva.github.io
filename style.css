@@ -1,6 +1,14 @@
 html {
   font-family: Helvetica, serif;
 }
+.topnav {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: auto;
+}
 
 .topnav {
   background-color: #333;
