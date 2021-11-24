@@ -4,6 +4,13 @@
 <html lang="ua">
 <head>
     <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/css/lightgallery.min.css"
+      integrity="sha512-e/7+n/bcByOQg6+rGt7Bx12Si0rpj4Xfe3EeS3W2RDSGGG/qT9rC7ZQCVAgaVAmZKZisvZ1DqaMd66TzfVO/Sw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style.css" />
     <link id="page_favicon" href="images/favicon.ico" rel="icon" type="image/x-icon">
     <title>Tetiana Titarieva</title>
@@ -11,7 +18,7 @@
 <body>
 <header class="topnav">
     <a class="active" href="#start">Про мене</a>
-    <a href="#work">Портфоліо</a>
+    <a href="#work">Моє портфоліо</a>
     <a href="#contact">Контакти</a>
 </header>
 
@@ -24,40 +31,89 @@
             <img src="images/myself.jpg" alt="Picture of my self">
         </div>
     </div>
+    
+<div id="portfolio" class="section section-portfolio">
+        <div class="wrapper">
+          <h2 id="work" class="portfolio-header"Моє портфоліо></h2> 
+          <div class="portfolio">
+              
+    
+          <div class="gallery" id="lightgallery">
+            <div class="gallery-row"> 
+                <div class="gallery-item">
 
-    <h2 id="work" class="portfolio-header">Моє портфоліо</h2>
-    <div class="portfolio">
-        <div>
-            <img src="images/portfolio1.jpg" alt="Picture from the portfolio 1">
+            <div class="gallery--item">
+
+                <a href="portfolio1.jpg" target="target_blank">
+              <img src="portfolio1_.jpg" />
+            </a>
+            </div>
+            <div class="gallery--item">
+                <a href="portfolio2.jpg" target="target_blank">
+              <img src="portfolio2_.jpg" />
+            </a>
+            </div>
+            <div class="gallery--item">
+                <a href="portfolio3.jpg"
+                target="target_blank">
+              <img src="portfolio3_.jpg" />
+            </a>
         </div>
-        <div>
-            <img src="images/portfolio2.jpg" alt="Picture from the portfolio 2">
-        </div>
-        <div>
-            <img src="images/portfolio3.jpg" alt="Picture from the portfolio 3">
+         </div>
+            </div>
+
+
+            <div class="gallery-row"> 
+                <div class="gallery-item">
+            <div class="gallery--item">
+
+                <a href="portfolio4.jpg"
+                target="target_blank">
+              <img src="portfolio4_.jpg" />
+            </a>
+            </div>
+            <div class="gallery--item">
+                <a href="Picture from the portfolio5"
+                target="target_blank">
+              <img src="Picture from the portfolio5_" />
+            </a>
+            </div>
+            <div class="gallery--item">
+                <a href="Picture from the portfolio6"
+                target="target_blank">
+              <img src="Picture from the portfolio6_" />
+            </a>
+              </div>
+            </div>
+          </div>
         </div>
     </div>
-    <div class="portfolio">
-        <div>
-            <img src="images/portfolio4.jpg" alt="Picture from the portfolio 4">
-        </div>
-        <div>
-            <img src="images/portfolio5.jpg" alt="Picture from the portfolio 5">
-        </div>
-        <div>
-            <img src="images/portfolio6.jpg" alt="Picture from the portfolio 6">
-        </div>
-    </div>
+</div>
+      </div>
+    
+
+    
 
     <footer id="contact" class="bottomnav">
         <p>
-            Phone: +380 255 25 25
+         +380 255 25 25
         </p>
         <p>
-            Email: titarieva@gmail.com
+          titarieva@gmail.com
         </p>
-        <a href="https://www.instagram.com/tetianatitarieva/" target_blank>instagram</a>
+        <p><a href="https://www.instagram.com/tetianatitarieva/" target_blank>Instagram</a></p>
     </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/lightgallery.min.js"
+      integrity="sha512-+1CyleTPoFvPO15/CfBZ5h6k/mu/qCQe9uxq1tEfO7SRJ52MnCAQ561bAYkvrsGtnG7AkcvKtVwdeoZc8ps7bQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script type="text/javascript">
+      lightGallery(document.getElementById('lightgallery'), {selector: '.gallery--item a',});
+    </script>
 
 </body>
 </html>

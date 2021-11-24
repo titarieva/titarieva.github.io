@@ -39,24 +39,55 @@ body {
 .home {
   display: flex;
   justify-content: center;
-  margin: 20px;
+  margin: 0px;
 }
 
 .home div {
-  padding: 10px;
+  padding: 50px;
 }
 
 .portfolio-header {
   display: flex;
   justify-content: center;
+  padding-top: 70;
+  padding-bottom: 60;
+  min-height: 5vh;
 }
 
 .home div img {
   border-radius: 3px;
   padding: 5px;
-  width: 250px;
+  width: 400px;
   height: auto;
 }
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.gallery-row {
+  display: flex;
+}
+
+.gallery--item img {
+  width: 100%;
+  display: flex;
+  
+}
+
+  .gallery-item {
+    width: 33%;
+  }
+
+.wrapper {
+  justify-content: center
+  width: 1000px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
 
 .portfolio {
   display: flex;
@@ -67,14 +98,16 @@ body {
   border: 2px solid #ddd;
   border-radius: 3px;
   padding: 5px;
-  margin: 20px;
-  width: 450px;
+  margin: 10px;
+  width: 200px;
   height: auto;
+  gap: 50px;
 }
 
 .bottomnav {
   background-color: #333;
   overflow: hidden;
+  height: 700px;
 }
 
 .bottomnav p {
@@ -84,4 +117,17 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+}
+
+.bottomnav a {
+  text-decoration: none;
+  box-sizing: border-box;
+  color: #f2f2f2;
+  float: centre;
+  text-align: center;
+  padding: 14px 1px;
+  font-size: 17px;
+}
+.bottomnav a:hover {
+  color: #04aa6d;
 }
