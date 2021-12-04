@@ -1,18 +1,25 @@
 html {
   font-family: Helvetica, serif;
   font-size: 17px;
+  color: #cf9ebf;
 }
 .topnav {
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+.wrapper {
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
 
 body {
   margin: auto;
+  background-color: rgb(20, 16, 20);
 }
 
 .topnav {
-  background-color: #333;
+  background-color: rgb(20, 16, 20);
   overflow: hidden;
   position: sticky;
   top: 0;
@@ -20,7 +27,7 @@ body {
 
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: #cf9ebf;
   text-align: center;
   padding: 25px 16px;
   text-decoration: none;
@@ -28,29 +35,26 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #cf9ebf;
   color: black;
-}
-
-.topnav a.active {
-  background-color: #04aa6d;
-  color: white;
 }
 
 .home {
   display: flex;
   justify-content: center;
   margin: 0px;
+  padding-left: 365px;
+  padding-right: 375px;
 }
 
 .home div {
-  padding: 50px;
+  padding: 60px;
 }
 
 .home div img {
   border-radius: 3px;
   padding: 5px;
-  width: 400px;
+  width: 350px;
   height: auto;
 }
 
@@ -59,6 +63,10 @@ body {
   padding-top: 70;
   padding-bottom: 60;
   align-items: center;
+}
+
+.section {
+  padding-top: 70;
 }
 
 .gallery {
@@ -113,7 +121,7 @@ body {
 }
 
 .portfolio img {
-  border: 2px solid #ddd;
+  border: 2px solid rgb(20, 16, 20);
   border-radius: 3px;
   padding: 5px;
   margin: 10px;
@@ -123,16 +131,20 @@ body {
 }
 
 .bottomnav {
-  background-color: #333;
+  background-color: rgb(20, 16, 20);
+
   overflow: hidden;
-  height: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 .bottomnav p {
-  float: left;
-  color: #f2f2f2;
+  float: center;
+  color: #cf9ebf;
   text-align: center;
-  padding: 14px 16px;
+  /* padding: 14px 16px; */
   text-decoration: none;
   font-size: 17px;
 }
@@ -140,12 +152,11 @@ body {
 .bottomnav a {
   text-decoration: none;
   box-sizing: border-box;
-  color: #f2f2f2;
-  float: centre;
+  color: #cf9ebf;
   text-align: center;
   padding: 14px 1px;
-  font-size: 17px;
+  font-size: 18px;
 }
 .bottomnav a:hover {
-  color: #04aa6d;
+  color: #632363;
 }
