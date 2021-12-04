@@ -21,7 +21,7 @@ body {
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 25px 16px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -52,7 +52,7 @@ body {
   padding-top: 70;
   padding-bottom: 60;
   min-height: 5vh; */
-/*  */
+  /*  */
 }
 
 .home div img {
@@ -67,9 +67,6 @@ body {
   padding-top: 70;
   padding-bottom: 60;
   align-items: center;
-   
-
-  
 }
 
 .gallery {
@@ -95,29 +92,20 @@ body {
 .gallery-item img {
   width: 100%;
   display: flex;
-  
 }
 
-  .gallery-item {
-    width: 33%;
-  }
+.gallery-item {
+  width: 33%;
+}
 
-  .gallery-item img {
-    max-width: 100%;
-  }
-  
-  .gallery-item {
-    width: 33%;
-  }
-
-  
-
-.wrapper {
-  justify-content: center
-  width: 1000px;
+.gallery-item img {
   max-width: 100%;
-  margin: 0 auto;
 }
+
+.gallery-item {
+  width: 33%;
+}
+
 .gallerywork img {
   max-width: 100%;
 }
@@ -126,9 +114,6 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-
-
-
 
 .portfolio {
   display: flex;
@@ -145,11 +130,10 @@ body {
   gap: 50px;
 }
 
-
 .bottomnav {
   background-color: #333;
   overflow: hidden;
-  height: 700px;
+  height: 300px;
 }
 
 .bottomnav p {
