@@ -1,5 +1,6 @@
 html {
   font-family: Helvetica, serif;
+  font-size: 17px;
 }
 .topnav {
   box-sizing: border-box;
@@ -44,15 +45,6 @@ body {
 
 .home div {
   padding: 50px;
-}
-
-.portfolio-header {
-  /* display: flex;
-  justify-content: center;
-  padding-top: 70;
-  padding-bottom: 60;
-  min-height: 5vh; */
-  /*  */
 }
 
 .home div img {
